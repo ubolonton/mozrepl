@@ -951,3 +951,11 @@ function evaluate(code) {
 function LoadedScriptError(cause) {
     this.cause = cause;
 }
+
+// This is needed since xulrunner 15
+util.expose(
+  this, ["setenv", "getenv", "pushenv", "popenv",
+         "print", "load", "debug", "isTopLevel",
+         "rename", "enter", "back", "home", "whereAmI", "quit",
+         "search", "doc", "inspect", "look", "highlight",
+         "reloadChrome", "setDebugPrefs", "pushInteractor"]);
