@@ -26,6 +26,15 @@
       </Description>
     </em:targetApplication>
 
+    <!-- Conkeror -->
+    <em:targetApplication>
+        <Description>
+            <em:id>{a79fe89b-6662-4ff4-8e88-09950ad4dfde}</em:id>
+            <em:minVersion>0.1</em:minVersion>
+            <em:maxVersion>18.*</em:maxVersion>
+        </Description>
+    </em:targetApplication>
+
     <em:name>MozRepl</em:name>
     <em:description>Interactive console for Mozilla applications</em:description>
     <em:creator>Massimiliano Mirra</em:creator>
