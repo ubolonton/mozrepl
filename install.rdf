@@ -31,7 +31,7 @@
         <Description>
             <em:id>{a79fe89b-6662-4ff4-8e88-09950ad4dfde}</em:id>
             <em:minVersion>0.1</em:minVersion>
-            <em:maxVersion>22.*</em:maxVersion>
+            <em:maxVersion>24.*</em:maxVersion>
         </Description>
     </em:targetApplication>
 
